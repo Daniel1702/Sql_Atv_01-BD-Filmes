@@ -1,0 +1,21 @@
+CREATE TABLE filmes (
+  id INT PRIMARY KEY,
+  nome_filme TEXT,
+  genero VARCHAR(30),
+  faixa_etaria INT,
+  tempo_filme FLOAT,
+  diretor VARCHAR(40),
+  protagonista VARCHAR(40),
+  oscar VARCHAR(3)
+); 
+
+INSERT INTO filmes (id, nome_filme, genero, faixa_etaria, tempo_filme, diretor, protagonista, oscar) VALUES 
+    (1, 'Shrek', 'Animação', 0 , 190 , 'Andrew Adamson', 'Shrek', 'Sim'),
+    (2, 'Malévola', 'Fantasia', 10, 97, 'Robert Stromberg', 'Angelina Jolie', 'Não'),
+    (3, 'Divergente', 'Ação', 12, 139, 'Neil Burger', 'Shailene Woodley', 'Não'),
+    (4, 'Truque de Mestre', 'Suspense', 14, 115, 'Louis Leterrier', 'Jesse Eisenberg', 'Não'),
+    (5, 'Jogos Vorazes', 'Ação', 14, 142, 'Gary Ross', 'Jennifer Lawrence', 'Não'),
+    (6, 'O Poderoso Chefão', 'Drama', 16, 175, 'Francis Ford Coppola', 'Marlon Brando', 'Sim'),
+    (7, 'O Rei Leão', 'Animação', 0, 88, ' Roger Allers', 'Simba', 'Sim'); 
+    
+
