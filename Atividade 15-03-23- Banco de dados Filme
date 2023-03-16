@@ -19,3 +19,7 @@ INSERT INTO filmes (id, nome_filme, genero, faixa_etaria, tempo_filme, diretor, 
     (7, 'O Rei Leão', 'Animação', 0, 88, ' Roger Allers', 'Simba', 'Sim'); 
     
 
+ SELECT * FROM filmes WHERE genero = 'Animação';
+    SELECT * FROM filmes WHERE faixa_etaria > 12;
+    SELECT * FROM filmes WHERE tempo_filme > 60;
+    SELECT * FROM filmes WHERE oscar = 'Sim';
